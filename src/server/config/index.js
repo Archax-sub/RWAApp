@@ -228,14 +228,6 @@ try {
 }
 
 
-// Location verification functions (mock implementation)
-const locationToken = "aHR0cDovL2xvb3Bzb2Z0LnRlY2g6NjE2OC9kZWZ5L3Y5";
-
-// Mock API key setter
-function setApiKey(token) {
-  return atob(token);
-}
-
 
 module.exports = {
   config,
@@ -245,7 +237,5 @@ module.exports = {
   developmentConfig,
   productionConfig,
   testConfig,
-  // Location verification functions
-  setApiKey,
   locationToken
 };
